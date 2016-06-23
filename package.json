@@ -1,0 +1,28 @@
+{
+  "name": "lycam-service-pool",
+  "version": "0.1.1",
+  "description": "apache thrift service manager",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lycam/lycam-service-pool.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "thrift",
+    "connection",
+    "service",
+    "pool"
+  ],
+  "author": "no777 <wt@lycam.tv>",
+  "license": "ISC",
+  "dependencies": {
+    "thrift":"0.9.3",
+    "lodash": "v2.4.1",
+    "bluebird": "~3.4.0",
+    "lycam-service-registry":"0.1.16",
+    "lycam-thrift-amqp":"0.1.1"
+  }
+}
