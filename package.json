@@ -1,6 +1,6 @@
 {
   "name": "lycam-service-pool",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "apache thrift service manager",
   "main": "index.js",
   "repository": {
@@ -22,7 +22,7 @@
     "thrift":"0.9.3",
     "lodash": "v2.4.1",
     "bluebird": "~3.4.0",
-    "lycam-service-registry":"0.1.16",
+    "lycam-service-registry":"0.2.2",
     "lycam-thrift-amqp":"0.1.1"
   }
 }
