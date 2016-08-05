@@ -20,7 +20,7 @@ SrviceRegistry.on('endpoint_update',function(err,data){
 SrviceRegistry.on('endpoint_remove',function(err,data){
   console.log("endpoint_remove",err,data);
 });
-
+ 
 pool.createClient(EchoService)
 .then(function (client) {
   // console.log(client);
